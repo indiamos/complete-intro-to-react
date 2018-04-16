@@ -2,5 +2,6 @@
   "printWidth": 120,
   "singleQuote": true,
   "trailingComma": "all",
-  "eslintIntegration": true
+  "eslintIntegration": true,
+  "parser": "flow"
 }
