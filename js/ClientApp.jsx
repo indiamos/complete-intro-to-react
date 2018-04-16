@@ -1,3 +1,6 @@
+const React = require('react');
+const ReactDOM = require('react-dom');
+
 const ce = React.createElement;
 const MyTitle = function(props) {
   return ce('div', null, ce('h1', { style: { color: props.color } }, props.title));
